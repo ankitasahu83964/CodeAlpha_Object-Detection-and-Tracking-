@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Object Detection App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>👁️ Object Detection & Tracking</h1>
+<p id="status"> 🔴Camera: OFF</p>
+
+<button onclick="startCamera()">Start Camera</button>
+<button onclick="stopCamera()">Stop Camera</button>
+
+<h2 id="count">Total Persons: 0</h2>
+
+<div id="alertBox">⚠️ Too Many People!</div>
+
+<br><br>
+<div class="video-container"></div>
+<img id="videoStream" 
+style="display: none;" />
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
